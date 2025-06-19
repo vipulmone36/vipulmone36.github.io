@@ -742,16 +742,17 @@ main {
   scroll-behavior: smooth;
   overscroll-behavior-inline: contain;
   scroll-snap-type: inline mandatory;
-  scroll-padding-inline: 25px;
+  scroll-padding-inline: 20px;
+  align-items: center;
 }
 
 .companies-item {
-  min-width: 50%;
+  min-width: 35%;
   scroll-snap-align: start;
 }
 
 .companies-item img {
-  width: 100%;
+  max-width: 90%;
   filter: grayscale(1);
   transition: var(--transition-1);
 }
