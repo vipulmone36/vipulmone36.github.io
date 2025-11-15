@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vipul Mone - Resume</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #F5F4D7; /* Light beige */
+      display: flex;
+      height: 100vh;
+    }
+   
+
+    /* Header */
+    header {
+      background-color: #EE6352;
+      color: white;
+      padding: 20px 40px;
+      font-size: 32px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      border-bottom: 10px solid #473335;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    /* Content container */
+    .content {
+      display: flex;
+      gap: 80px;
+      align-items: flex-start;
+      padding: 30px 40px;
+    }
+
+    /* Profile picture */
+    .profile-pic {
+      width: 220px;
+      height: auto;
+      box-shadow: 10px 10px 0px #473335;
+      margin-bottom: 20px;
+    }
+      /* Responsive layout */
+    @media (max-width: 900px) {
+      body {
+        flex-direction: column;
+        height: auto;
+      }
+      .left-panel, .right-panel {
+        width: 100%;
+      }
+      header {
+        font-size: 24px;
+        text-align: center;
+      }
+      .content {
+        padding: 20px;
+      }
+      .profile-pic {
+        width: 160px;
+        box-shadow: 10px 10px 0px #473335;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="left-panel">
+    <header>VIPUL MONE</header>
+    <div class="content">
+      <img src="profile.jpg" alt="Profile Photo" class="profile-pic" />
+      <div class="intro-text">
+        <p style="padding-right: 150px;">I want to design great products for everyone around the world. I am detail-oriented when it counts, and equipped with professional experience from different industries, I can reliably drive myself towards bigger goals.</p>
+        <p style="padding-right: 150px;">A quick learner who's not scared of experimenting with unconventional approaches to solving a problem.</p>
+      </div>
+      
+    </div>
+  </div>
+
+  
+</body>
+</html>
