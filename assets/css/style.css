@@ -34,6 +34,7 @@
 
   /* font-family */
   --ff-poppins: 'Poppins', sans-serif;
+  --ff-monospace: 'Source Code Pro', Consolas, monospace;
 
 
   /* font-size */
@@ -111,7 +112,7 @@ input, textarea {
 
 :focus { outline-color: rgb(168, 27, 163); }
 
-html { font-family: var(--ff-poppins); }
+html { font-family: var(--ff-monospace); }
 
 body { background:var(--beige) }
 
