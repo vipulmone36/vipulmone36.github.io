@@ -236,6 +236,17 @@ main {
   min-width: 259px;
 }
 
+.hobbies {
+  margin-top: 40px;
+}
+
+.hobbies .instagram-media {
+  margin: 20px 0;
+}
+
+.timeline-list + .timeline-list {
+  margin-top: 40px;
+}
 
 
 
@@ -1349,42 +1360,4 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
-}
-
-/* ---- AUTO FIXES APPLIED ---- */
-
-:root {
-  --jet: #333333;
-  --onyx: #353839;
-  --eerie-black-2: #1a1a1a;
-  --bg-gradient-yellow-1: linear-gradient(45deg, #f7d774, #ffb300);
-  --bg-gradient-yellow-2: linear-gradient(45deg, #ffb300, #f7d774);
-  --text-gradient-yellow: #ffd166;
-}
-
-/* Hobbies / Instagram section fixes */
-.hobbies {
-  margin-top: 40px;
-}
-
-.hobbies .instagram-media {
-  margin: 20px 0;
-}
-
-/* Service Item Fix */
-.service-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 16px;
-}
-
-/* Timeline UL Fix */
-.timeline-text ul {
-  margin-left: 20px;
-  list-style-type: disc;
-}
-
-/* Consistent section spacing */
-section {
-  margin-bottom: 40px;
 }
