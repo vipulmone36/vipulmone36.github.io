@@ -236,6 +236,17 @@ main {
   min-width: 259px;
 }
 
+.hobbies {
+  margin-top: 40px;
+}
+
+.hobbies .instagram-media {
+  margin: 20px 0;
+}
+
+.timeline-list + .timeline-list {
+  margin-top: 40px;
+}
 
 
 
