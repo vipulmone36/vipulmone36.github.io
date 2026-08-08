@@ -151,7 +151,7 @@ article {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: var(--beige);
+  color: var(--bg);
 }
 
 .icon-box::before {
@@ -179,7 +179,7 @@ article.active {
 .h3,
 .h4,
 .h5 {
-  color: var(--beige);
+  color: var(--bg);
   text-transform: capitalize;
 }
 
@@ -647,7 +647,7 @@ main {
 
 .select-item button {
   background: var(--bg);
-  color: var(--beige);
+  color: var(--bg);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   text-transform: capitalize;
@@ -736,7 +736,7 @@ main {
 .project-category { margin-left: 10px; }
 
 .project-title {
-  color: var(--beige);
+  color: var(--bg);
   font-size: var(--fs-5);
   font-weight: var(--fw-400);
   text-transform: capitalize;
@@ -744,7 +744,7 @@ main {
 }
 
 .project-category {
-  color: var(--beige);
+  color: var(--bg);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
@@ -785,7 +785,7 @@ main {
 }
 
 .form-input {
-  color: var(--beige);
+  color: var(--bg);
   font-size: var(--fs-6);
   font-weight: var(--fw-400);
   padding: 13px 20px;
@@ -807,13 +807,13 @@ textarea.form-input {
 
 textarea.form-input::-webkit-resizer { display: none; }
 
-.form-input:focus:invalid { border-color: var(--beige); }
+.form-input:focus:invalid { border-color: var(--bg); }
 
 .form-btn {
   position: relative;
   width: 100%;
   background: var(--shadow-1);
-  color: var(--beige);
+  color: var(--bg);
   display: flex;
   justify-content: center;
   align-items: center;
