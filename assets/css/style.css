@@ -27,6 +27,10 @@
   --brown: #473335;
   --beige: #F5E4D7;
   --darkblue: #00072D;
+  --mainbox: #270722;
+  --shadow: #759AAB;
+  --bg: #F5E4D7;
+  --accent: #796465;
 
   /**
    * typography
@@ -114,7 +118,7 @@ input, textarea {
 
 html { font-family: var(--ff-monospace); }
 
-body { background:var(--beige) }
+body { background:var(--bg) }
 
 
 
@@ -126,7 +130,7 @@ body { background:var(--beige) }
 
 .sidebar,
 article {
-  background: var(--coralred);
+  background: var(--bg);
   padding: 15px;
   box-shadow: var(--shadow-1);
   z-index: 1;
@@ -135,7 +139,7 @@ article {
 .separator {
   width: 100%;
   height: 1px;
-  background: var(--beige);
+  background: var(--bg);
   margin: 16px 0;
 }
 
@@ -202,7 +206,7 @@ article.active {
   left: 0;
   width: 30px;
   height: 3px;
-  background: var(--beige);
+  background: var(--bg);
 }
 
 
@@ -264,7 +268,7 @@ main {
 
 
 .info-content .name {
-  color: var(--beige);
+  color: var(--bg);
   font-size: var(--fs-3);
   font-weight: var(--fw-500);
   letter-spacing: -0.25px;
@@ -272,8 +276,8 @@ main {
 }
 
 .info-content .title {
-  color: var(--beige);
-  background: var(--onyx);
+  color: var(--bg);
+  background: var(--bg);
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
   width: max-content;
@@ -311,14 +315,14 @@ main {
 }
 
 .contact-title {
-  color: var(--beige);
+  color: var(--bg);
   font-size: var(--fs-8);
   text-transform: uppercase;
   margin-bottom: 2px;
 }
 
 .contact-info :is(.contact-link, time, address) {
-  color: var(--beige);
+  color: var(--bg);
   font-size: var(--fs-7);
 }
 
@@ -334,12 +338,12 @@ main {
 }
 
 .social-item .social-link {
-  color: var(--beige);
+  color: var(--bg);
   font-size: 18px;
 }
 
 
-.social-item .social-link:hover { color: var(--beige); }
+.social-item .social-link:hover { color: var(--bg); }
 
 
 
@@ -356,7 +360,7 @@ main {
   width: 100%;
   background: hsla(240, 1%, 17%, 0.75);
   border: 1px solid var(--jet);
-  box-shadow: var(--shadow-1);
+  box-shadow: var(--shadow);
   z-index: 5;
 }
 
@@ -369,14 +373,14 @@ main {
 }
 
 .navbar-link {
-  color: var(--beige);
+  color: var(--bg);
   font-size: var(--fs-8);
   padding: 20px 7px;
   transition: color var(--transition-1);
 }
 
 .navbar-link:hover,
-.navbar-link:focus { color: var(--beige); }
+.navbar-link:focus { color: var(--bg); }
 
 .navbar-link.active { color: rgb(127, 183, 190); }
 
@@ -391,7 +395,7 @@ main {
 .about .article-title { margin-bottom: 15px; }
 
 .about-text {
-  color: var(--beige);
+  color: var(--bg);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
@@ -418,7 +422,7 @@ main {
 .service-item {
   position: relative;
   padding: 20px;
-  box-shadow: var(--shadow-1);
+  box-shadow: var(--shadow);
   z-index: 1;
 }
 
@@ -438,7 +442,7 @@ main {
 .service-item-title { margin-bottom: 7px; }
 
 .service-item-text {
-  color: var(--beige);
+  color: var(--bg);
   font-size: var(--fs-6);
   font-weight: var(--fw-3);
   line-height: 1.6;
@@ -525,7 +529,7 @@ main {
 }
 
 .timeline-list span {
-  color: var(--beige);
+  color: var(--bg);
   font-weight: var(--fw-400);
   line-height: 1.6;
 }
@@ -537,7 +541,7 @@ main {
   left: -30px;
   width: 1px;
   height: calc(100% + 50px);
-  background: var(--blue);
+  background: var(--bg);
 }
 
 .timeline-item::after {
@@ -547,11 +551,11 @@ main {
   left: -33px;
   height: 6px;
   width: 6px;
-  background: var(--blue);
+  background: var(--bg);
 }
 
 .timeline-text {
-  color: var(--beige);
+  color: var(--bg);
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
@@ -575,19 +579,19 @@ main {
 }
 
 .skill .title-wrapper data {
-  color: var(--beige);
+  color: var(--bg);
   font-size: var(--fs-7);
   font-weight: var(--fw-300);
 }
 
 .skill-progress-bg {
-  background: var(--jet);
+  background: var(--bg);
   width: 100%;
   height: 8px;
 }
 
 .skill-progress-fill {
-  background: var(--text-gradient-yellow);
+  background: var(--bg);
   height: 100%;
 }
 
@@ -607,8 +611,8 @@ main {
 }
 
 .filter-select {
-  background: var(--darkblue);
-  color: var(--beige);
+  background: var(--bg);
+  color: var(--mainbox);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -622,7 +626,7 @@ main {
 .filter-select.active .select-icon { transform: rotate(0.5turn); }
 
 .select-list {
-  background: var(--eerie-black-2);
+  background: var(--bg);
   position: absolute;
   top: calc(100% + 6px);
   width: 100%;
@@ -642,7 +646,7 @@ main {
 }
 
 .select-item button {
-  background: var(--eerie-black-2);
+  background: var(--bg);
   color: var(--beige);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
@@ -700,7 +704,7 @@ main {
   --scale: 0.8;
 
   background: var(--jet);
-  color: var(--beige);
+  color: var(--mainbox);
   position: absolute;
   top: 50%;
   left: 50%;
